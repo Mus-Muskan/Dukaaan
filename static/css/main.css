@@ -1,5 +1,5 @@
 body{
-	background-color: hsl(0, 0%, 98%);
+	background-color: hsl(0, 0%, 100%);
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -9,7 +9,6 @@ h1,h2,h3,h4,h5,h6{
 .box-element{
     box-shadow: 0 0 16px hsl(0, 0%, 80%);
     background-color: #fff;
-    border:2px solid red;
     border-radius: 4px;
     padding: 10px;
 }
@@ -24,6 +23,8 @@ h1,h2,h3,h4,h5,h6{
 
 .product{
 	border-radius: 0 0 4px 4px;
+	margin: 0 10px; 
+	padding-top: 40px; /* Space above each product */
 }
 
 .bg-dark{
@@ -97,4 +98,30 @@ h1,h2,h3,h4,h5,h6{
 
 .hidden{
 	display: none!important;
+}
+
+.CarouselImage{
+    margin-top: 20px;
+    height: 800px;
+    width: 1000px;
+}
+
+.card{
+	align-self: center;
+}
+
+.carousel {
+    max-width: 1200px; 
+    margin: auto; /* Centers the carousel */
+	margin-bottom: 80px; /* Adjust the space */
+	margin-top: 30px;
+}
+
+.carousel img {
+    max-height: 600px; 
+    object-fit: cover; /* Ensures the images scale properly */
+}
+
+.row {
+    margin-top: 40px; /* Adjust the space above each column for product */
 }
