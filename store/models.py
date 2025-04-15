@@ -22,7 +22,7 @@ class Product(models.Model):
     '''stores info: Does the product need to be shipped? Or if its only digitally available'''
 
     def __str__(self):
-        return self.name()
+        return self.name
     
 class Order(models.Model):
     customer_name = models.ForeignKey(Customer, on_delete=models.SET_NULL, null = True, blank=True)
