@@ -20,7 +20,6 @@ class Product(models.Model):
     price = models.FloatField()
     digital_product = models.BooleanField(default=False, null=True, blank=True)
     '''stores info: Does the product need to be shipped? Or if its only digitally available'''
-
     def __str__(self):
         return self.name
     
